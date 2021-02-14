@@ -1,14 +1,14 @@
 :root {
   /* Colores principales */
   --blanco: #ffffff;
-  --negro: #000000;
-  --fondo-azul:aqua;
-  --fondo-rojo: red;
-  --fondo-amarillo: gold;
-  --borde: rgba(255, 253, 253, 0.753);
+  --negro:#303640;
+  --fondo-azul:#91A3C2;
+  --fondo-rojo:#606B80;
+  --fondo-amarillo: #9eb0cf;
+  --borde: #91A3C2;
   /* Colores de botones */
-  --boton-gris:rgba(177, 174, 174, 0.897);
-  --boton-rosa:rgba(224, 107, 152, 0.432);
+  --boton-gris:#576274;
+  --boton-rosa:#303640;
   /* Tipografia */
   --tipo-principal: "Open Sans", sans-serif;
   --tipo-secundaria: "Open Sans", sans-serif;
@@ -70,7 +70,7 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  color: royalblue;
+  color: var(--negro);
   font-size: 1.5em;
   font-weight: 600;
 }
@@ -160,6 +160,7 @@ body {
 .footer {
   width: 100%;
   min-height: 4em;
+  color: var(--blanco);
 }
 .footer .botones1 {
   width: 80%;
@@ -171,6 +172,7 @@ body {
   background-color: var(--boton-gris);
   border-radius: 0.3em;
   font-weight: 500;
+  color: var(--blanco);
 }
 .footer .botones2 {
   width: 80%;
@@ -181,4 +183,5 @@ body {
   padding: 0.2em;
   background-color: var(--boton-rosa);
   border-radius: 0.3em;
+  color: var(--blanco);
 }

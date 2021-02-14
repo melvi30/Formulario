@@ -1,15 +1,15 @@
 :root{
     /* Colores principales */
     --blanco : #ffffff;
-    --negro  : #000000;
-    --fondo-azul:aqua;
-    --fondo-rojo: red;
-    --fondo-amarillo: gold;
-    --borde: rgba(255, 253, 253, 0.753);
+    --negro  :#303640;
+    --fondo-azul:#91A3C2;
+    --fondo-rojo:#606B80;
+    --fondo-amarillo: #9eb0cf;
+    --borde: #91A3C2;
 
     /* Colores de botones */
-    --boton-gris:rgba(177, 174, 174, 0.897);
-    --boton-rosa:rgba(224, 107, 152, 0.432);
+    --boton-gris:#576274;
+    --boton-rosa:#303640;
 
 
     /* Tipografia */
@@ -68,7 +68,7 @@ body{
     align-content: center;
     align-items: center;
 
-    color: royalblue;
+    color:var(--negro);
     font-size: 1.5em;
     font-weight: 600;
 
@@ -177,6 +177,7 @@ body{
     width: 100%;
     min-height: 4em;
     // background-color: indigo;
+    color: var(--blanco);
 
     .botones1{
         width: 80%;
@@ -191,6 +192,7 @@ body{
             border-radius: .3em;
 
             font-weight: 500;
+            color: var(--blanco);
 
         }
 
@@ -206,6 +208,7 @@ body{
             padding: .2em;
             background-color:var(--boton-rosa);
             border-radius: .3em;
+            color: var(--blanco);
 
 
         }
