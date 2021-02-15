@@ -7,10 +7,10 @@ valoracionbtn.addEventListener("click", function () {
 var mostarcuenta = document.querySelector("#cuentabtn");
 var cuenta = document.querySelector("#cuenta");
 mostarcuenta.addEventListener("click", function () {
-    alert("le informamos que su n\u00FAmero de cuenta bancaria es: " + cuenta.value);
+    alert("le informamos que su numero de cuenta bancaria es: " + cuenta.value);
 });
 var dia = document.querySelector("#diabtn");
 var fecha1 = document.querySelector("#fecha");
 dia.addEventListener("click", function () {
-    alert("este es el " + Date);
+    alert("este es la fecha de envio " + fecha1.value + " ");
 });

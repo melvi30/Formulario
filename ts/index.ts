@@ -13,12 +13,12 @@ const cuenta = (document.querySelector("#cuenta") as HTMLFormElement)
 
 
     mostarcuenta.addEventListener("click",()=>{
-            alert(`le informamos que su número de cuenta bancaria es: ${cuenta.value}`)
+            alert(`le informamos que su numero de cuenta bancaria es: ${cuenta.value}`)
         })
 
 const dia = (document.querySelector("#diabtn") as HTMLFormElement)
 const fecha1 = (document.querySelector("#fecha") as HTMLFormElement)
 
     dia.addEventListener("click",()=>{
-        alert(`este es el ${Date}`)
+        alert(`este es la fecha de envio ${fecha1.value} `)
     })
