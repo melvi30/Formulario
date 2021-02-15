@@ -22,32 +22,37 @@
                             <input type="text" id="nombre" class="inputtxt" 
                             name="nombre"  
                             maxlength="20" 
-                            placeholder="introduce tu nombre">
+                            placeholder="introduce tu nombre"
+                            required>
                         </label>
                         <label for="apellidos" class="label">Apellidos:
                             <input type="text" id="apellido" class="inputtxt" 
                             name="apellidos"  
                             maxlength="20" 
-                            placeholder="introduce tus apellidos">
+                            placeholder="introduce tus apellidos"
+                            required>
                         </label>
                         <label for="direccion" class="label">Dirección:
                             <input type="text" id="direccion" class="inputtxt" 
                             name="direccion"  
                             maxlength="20" 
-                            placeholder="introduce tu direccion">
+                            placeholder="introduce tu direccion"
+                            required>
                         </label>
                         <label for="codigo_postal" class="label">Código Postal:
                             <input type="number" id="codigo postal" class="inputtxt" 
                             name="codigo_postal"  
                             maxlength="10" 
                             pattern="{1,10}" 
-                            placeholder="introduce tu codigo postal">
+                            placeholder="introduce tu codigo postal"
+                            required>
                         </label>
                         <label for="localidad" class="label">Localidad:
                             <input type="text" id="localidad" class="inputtxt" 
                             name="localidad"  
                             maxlength="20" 
-                            placeholder="introduce tu Localidad">
+                            placeholder="introduce tu Localidad"
+                            required>
                         </label>
                     </div>
             </fieldset>
@@ -62,7 +67,7 @@
                 
                 <div class="centrado_3">
                     <label for="elija_la_compania" class="desplegable">Elija la compania actual:
-                        <input type="text" class="desple" name="compania_actual" list="companias" >
+                        <input type="text" class="desple" name="compania_actual" list="companias" required>
                         <datalist id ="companias"                       class="companias">
                             <option value="Movistar"                    class="option"></option>
                             <option value="Orange"                      class="option"></option>
@@ -72,7 +77,7 @@
                         </datalist>
                     </label>
                     <label for="portabilidad" class="desplegable">En caso de portabilidad,elija la nueva compania:
-                        <input type="text" class="desple" name="compania optar" list="companias2" >
+                        <input type="text" class="desple" name="compania optar" list="companias2" required>
                         <datalist id = "companias2"                     class="companias">
                             <option value="Movistar"                    class="option"></option>
                             <option value="Orange"                      class="option"></option>
@@ -97,7 +102,8 @@
                         name="iban"  
                         maxlength="2" 
                         pattern=".{,2}" 
-                        placeholder="XX">
+                        placeholder="XX"
+                        required>
                         <span>(dos dígitos)</span>
                     </label>
                     <label for="entidad" class="label">Entidad:
@@ -105,7 +111,8 @@
                         name="entidad"  
                         maxlength="4" 
                         pattern=".{,4}" 
-                        placeholder="XXXX" >
+                        placeholder="XXXX" 
+                        required>
                         <span>(cuatro dígitos)</span>
                     </label>
                     <label for="sucursal" class="label">Sucursal:
@@ -113,7 +120,8 @@
                         name="sucursal"  
                         maxlength="4" 
                         pattern=".{,4}" 
-                        placeholder="XXXX">
+                        placeholder="XXXX"
+                        required>
                         <span>(cuatro dígitos)</span>
                     </label>
                     <label for="dc" class="label">Dc:
@@ -121,7 +129,8 @@
                         name="dc" 
                         maxlength="2" 
                         pattern=".{,2}"  
-                        placeholder="XX">
+                        placeholder="XX"
+                        required>
                         <span>(dos dígitos)</span>
                     </label>
                     <label for="cuenta" class="label">Cuenta:
@@ -129,7 +138,8 @@
                         name="cuenta"  
                         maxlength="10" 
                         pattern=".{,10}" 
-                        placeholder="XXXXXXXXXX">
+                        placeholder="XXXXXXXXXX"
+                        required>
                         <span>(diez dígitos)</span>
                     </label>
                 </div>
