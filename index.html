@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap" >
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-        <link rel="stylesheet" href="sccs/index.css">
+        <link rel="stylesheet" href="css/index.css">
         <script src="js/index.js" defer></script>
     </head>
 
@@ -18,20 +18,36 @@
             <fieldset class="fieldset">
                     <legend class="legend">Datos Personales</legend>
                     <div class="centrado">
-                        <label for="Nombre" class="label">Nombre:
-                            <input type="text" id="nombre" class="inputtxt" name="Nombre" value="" maxlength="20" placeholder="introduce tu nombre">
+                        <label for="nombre" class="label">Nombre:
+                            <input type="text" id="nombre" class="inputtxt" 
+                            name="nombre"  
+                            maxlength="20" 
+                            placeholder="introduce tu nombre">
                         </label>
-                        <label for="Apellidos" class="label">Apellidos:
-                            <input type="text" id="apellido" class="inputtxt" name="Apellidos" value="" maxlength="20" placeholder="introduce tus apellidos">
+                        <label for="apellidos" class="label">Apellidos:
+                            <input type="text" id="apellido" class="inputtxt" 
+                            name="apellidos"  
+                            maxlength="20" 
+                            placeholder="introduce tus apellidos">
                         </label>
-                        <label for="Dirección" class="label">Dirección:
-                            <input type="text" id="Dirección" class="inputtxt" name="Dirección" value="" maxlength="20" placeholder="introduce tu dirección">
+                        <label for="direccion" class="label">Dirección:
+                            <input type="text" id="direccion" class="inputtxt" 
+                            name="direccion"  
+                            maxlength="20" 
+                            placeholder="introduce tu direccion">
                         </label>
-                        <label for="Codigo Postal" class="label">Código Postal:
-                            <input type="number" id="codigo postal" class="inputtxt" name="Codigo postal" value="" maxlength="10" pattern=".{1,10}" placeholder="introduce tus codigo postal">
+                        <label for="codigo_postal" class="label">Código Postal:
+                            <input type="number" id="codigo postal" class="inputtxt" 
+                            name="codigo_postal"  
+                            maxlength="10" 
+                            pattern="{1,10}" 
+                            placeholder="introduce tu codigo postal">
                         </label>
-                        <label for="Localidad" class="label">Localidad:
-                            <input type="text" id="localidad" class="inputtxt" name="Localidad" value="" maxlength="20" placeholder="introduce tu Localidad">
+                        <label for="localidad" class="label">Localidad:
+                            <input type="text" id="localidad" class="inputtxt" 
+                            name="localidad"  
+                            maxlength="20" 
+                            placeholder="introduce tu Localidad">
                         </label>
                     </div>
             </fieldset>
@@ -39,29 +55,29 @@
             <fieldset class="fieldset fielset2">
                 <legend class="legend">Tipo de Contratación</legend>
                 <div class="centrado_2">
-                    <input type="radio" id="N" class="radio" name ="radio"  value="1" checked>Nueva Contratación</input>
-                    <input type="radio" id="P" class="radio" name="radio"   value="2">Portabilidad</input>
-                    <input type="radio" id="C" class="radio" name="radio"   value="3">Cambio de Contrato</input>
+                    <input type="radio" id="n" class="radio" name ="radio"  value="1" checked>Nueva Contratación</input>
+                    <input type="radio" id="p" class="radio" name="radio"   value="2">Portabilidad</input>
+                    <input type="radio" id="c" class="radio" name="radio"   value="3">Cambio de Contrato</input>
                 </div>
                 
                 <div class="centrado_3">
-                    <label for="Elija la compañia" class="desplegable">Elija la compañia actual:
-                        <input type="text" class="desple" name="Compañia actual" list="Compañias" value="">
-                        <datalist id = "Compañias" class="compañias">
-                            <option value="Movistar" class="option"></option>
-                            <option value="Orange" class="option"></option>
-                            <option value="Vodafone" class="option"></option>
-                            <option value="Yoigo" class="option"></option>
-                            <option value="No tengo ninguna compañia" class="option"></option>
+                    <label for="elija_la_compania" class="desplegable">Elija la compania actual:
+                        <input type="text" class="desple" name="compania_actual" list="companias" >
+                        <datalist id ="companias"                       class="companias">
+                            <option value="Movistar"                    class="option"></option>
+                            <option value="Orange"                      class="option"></option>
+                            <option value="Vodafone"                    class="option"></option>
+                            <option value="Yoigo"                       class="option"></option>
+                            <option value="No_tengo_ninguna_compania"   class="option"></option>
                         </datalist>
                     </label>
-                    <label for="Portabilidad" class="desplegable">En caso de portabilidad,elija la nueva compañia:
-                        <input type="text" class="desple" name="Compañia optar" list="Compañias2" value="">
-                        <datalist id = "Compañias2" class="compañias">
-                            <option value="Movistar" class="option"></option>
-                            <option value="Orange" class="option"></option>
-                            <option value="Vodafone" class="option"></option>
-                            <option value="Yoigo" class="option"></option>
+                    <label for="portabilidad" class="desplegable">En caso de portabilidad,elija la nueva compania:
+                        <input type="text" class="desple" name="compania optar" list="companias2" >
+                        <datalist id = "companias2"                     class="companias">
+                            <option value="Movistar"                    class="option"></option>
+                            <option value="Orange"                      class="option"></option>
+                            <option value="Vodafone"                    class="option"></option>
+                            <option value="Yoigo"                       class="option"></option>
                         </datalist>
                 </div>
             </fieldset>
@@ -69,28 +85,51 @@
             <fieldset class="fieldset">
                 <legend class="legend">Datos Bancarios</legend>
                 <div class="centrado">
-                    <label for="Pais" class="label">País:
-                        <input type="text" id="pais" class="inputtxt" name="Pais" value="ES" placeholder="">
+                    <label for="pais" class="label">País:
+                        <input type="text"      id="pais"   class="inputtxt"    
+                        name="pais" 
+                        value="ES" 
+                        disabled>
                         <span>(sólo válido ES)</span>
                     </label>
-                    <label for="Control iban" class="label">Control IBAN:
-                        <input type="number" id="iban" class="inputtxt" name="Iban" value="" placeholder="XX">
+                    <label for="control iban" class="label">Control IBAN:
+                        <input type="number"    id="iban"   class="inputtxt"    
+                        name="iban"  
+                        maxlength="2" 
+                        pattern=".{,2}" 
+                        placeholder="XX">
                         <span>(dos dígitos)</span>
                     </label>
-                    <label for="Entidad" class="label">Entidad:
-                        <input type="numer" id="entidad" class="inputtxt" name="Entidad" value="" placeholder="XXXX" >
+                    <label for="entidad" class="label">Entidad:
+                        <input type="numer"     id="entidad" class="inputtxt"   
+                        name="entidad"  
+                        maxlength="4" 
+                        pattern=".{,4}" 
+                        placeholder="XXXX" >
                         <span>(cuatro dígitos)</span>
                     </label>
-                    <label for="Sucursal" class="label">Sucursal:
-                        <input type="number" id="sucursal" class="inputtxt" name="Sucursal" value="" placeholder="XXXX" >
+                    <label for="sucursal" class="label">Sucursal:
+                        <input type="number"    id="sucursal" class="inputtxt"  
+                        name="sucursal"  
+                        maxlength="4" 
+                        pattern=".{,4}" 
+                        placeholder="XXXX">
                         <span>(cuatro dígitos)</span>
                     </label>
                     <label for="dc" class="label">Dc:
-                        <input type="number" id="dc" class="inputtxt" name="dc" value="" placeholder="XX">
+                        <input type="number"    id="dc"       class="inputtxt"  
+                        name="dc" 
+                        maxlength="2" 
+                        pattern=".{,2}"  
+                        placeholder="XX">
                         <span>(dos dígitos)</span>
                     </label>
-                    <label for="Cuenta" class="label">Cuenta:
-                        <input type="number" id="cuenta" class="inputtxt" name="cuenta" value="" maxlength="10" placeholder="XXXXXXXXXX">
+                    <label for="cuenta" class="label">Cuenta:
+                        <input type="number"    id="cuenta"    class="inputtxt" 
+                        name="cuenta"  
+                        maxlength="10" 
+                        pattern=".{,10}" 
+                        placeholder="XXXXXXXXXX">
                         <span>(diez dígitos)</span>
                     </label>
                 </div>
@@ -99,12 +138,12 @@
             <fieldset class="fieldset fielset3">
                 <legend class="legend">Datos Estadísticos-¿Cómo nos conoció?</legend>
                 <div class="centrado centrado4">
-                    <span class="span" ><input type="checkbox" class="checkbox" name ="A travez de la TV"     value="">A travez de la TV    </input></span>
-                    <span class="span" ><input type="checkbox" class="checkbox" name="A travez de la radio"   value="">A travez de la radio </input></span>
-                    <span class="span" ><input type="checkbox" class="checkbox" name="A travez de internet"   value="">A travez de internet </input></span>
-                    <span class="span" ><input type="checkbox" class="checkbox" name="otros"   value="">Otros </input></span>
+                    <span class="span" ><input type="checkbox" class="checkbox" name ="tv"      >A travez de la TV    </input></span>
+                    <span class="span" ><input type="checkbox" class="checkbox" name=" radio"   >A travez de la radio </input></span>
+                    <span class="span" ><input type="checkbox" class="checkbox" name="internet" >A travez de internet </input></span>
+                    <span class="span" ><input type="checkbox" class="checkbox" name="otros"    >Otros </input></span>
                     
-                    <label for="valoración">
+                    <label for="valoracion">
                         <input id="range" class="range" type="range" name="valoracion" min="1" max="4" step="1" value="1" list="tickmarks">Valoración 1-4
                             <datalist id="tickmarks">
                                 <option value="1">1</option>
@@ -122,13 +161,13 @@
             </fieldset>
             <footer class="footer">
                 <div class="botones1">
-                    <button class="BF" type="submit">Enviar Datos</button>
-                    <button class="BF" type="reset">Borrar Datos</button>
+                    <button class="BF" type="submit"    >Enviar Datos</button>
+                    <button class="BF" type="reset"     >Borrar Datos</button>
                 </div>
                 <div class="botones2">
-                    <button id="valoracionbtn" class="BD" type="button">Mostrar valoración</button>
-                    <button id="cuentabtn" class="BD" type="button">Mostrar cuenta</button>
-                    <button id="diabtn" class="BD" type="button">Mostrar dia semana</button>
+                    <button id="valoracionbtn"  class="BD"  type="button"   >Mostrar valoración</button>
+                    <button id="cuentabtn"      class="BD"  type="button"   >Mostrar cuenta</button>
+                    <button id="diabtn"         class="BD"  type="button"   >Mostrar dia semana</button>
                 </div>
             </footer>
             
