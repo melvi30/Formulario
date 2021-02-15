@@ -19,19 +19,19 @@
                     <legend class="legend">Datos Personales</legend>
                     <div class="centrado">
                         <label for="Nombre" class="label">Nombre:
-                            <input type="text" id="nombre" class="inputtxt" name="Nombre" value="" placeholder="introduce tu nombre">
+                            <input type="text" id="nombre" class="inputtxt" name="Nombre" value="" maxlength="20" placeholder="introduce tu nombre">
                         </label>
                         <label for="Apellidos" class="label">Apellidos:
-                            <input type="text" id="apellido" class="inputtxt" name="Apellidos" value="" placeholder="introduce tus apellidos">
+                            <input type="text" id="apellido" class="inputtxt" name="Apellidos" value="" maxlength="20" placeholder="introduce tus apellidos">
                         </label>
                         <label for="Dirección" class="label">Dirección:
-                            <input type="text" id="Dirección" class="inputtxt" name="Dirección" value="" placeholder="introduce tu dirección">
+                            <input type="text" id="Dirección" class="inputtxt" name="Dirección" value="" maxlength="20" placeholder="introduce tu dirección">
                         </label>
                         <label for="Codigo Postal" class="label">Código Postal:
-                            <input type="text" id="codigo postal" class="inputtxt" name="Codigo postal" value="" placeholder="introduce tus codigo postal">
+                            <input type="number" id="codigo postal" class="inputtxt" name="Codigo postal" value="" maxlength="10" pattern=".{1,10}" placeholder="introduce tus codigo postal">
                         </label>
                         <label for="Localidad" class="label">Localidad:
-                            <input type="text" id="localidad" class="inputtxt" name="Localidad" value="" placeholder="introduce tu Localidad">
+                            <input type="text" id="localidad" class="inputtxt" name="Localidad" value="" maxlength="20" placeholder="introduce tu Localidad">
                         </label>
                     </div>
             </fieldset>
@@ -39,9 +39,9 @@
             <fieldset class="fieldset fielset2">
                 <legend class="legend">Tipo de Contratación</legend>
                 <div class="centrado_2">
-                    <input type="radio" class="radio" name ="Nueva Contratación"  value="1" checked ="checked" >Nueva Contratación</input>
-                    <input type="radio" class="radio" name="Portabilidad"         value="2">Portabilidad</input>
-                    <input type="radio" class="radio" name="Cambio de Contrato"   value="3">Cambio de Contrato</input>
+                    <input type="radio" id="N" class="radio" name ="radio"  value="1" checked>Nueva Contratación</input>
+                    <input type="radio" id="P" class="radio" name="radio"   value="2">Portabilidad</input>
+                    <input type="radio" id="C" class="radio" name="radio"   value="3">Cambio de Contrato</input>
                 </div>
                 
                 <div class="centrado_3">
@@ -107,10 +107,10 @@
                     <label for="valoración">
                         <input id="range" class="range" type="range" name="valoracion" min="1" max="4" step="1" value="1" list="tickmarks">Valoración 1-4
                             <datalist id="tickmarks">
-                                <option value="1"></option>
-                                <option value="2"></option>
-                                <option value="3"></option>
-                                <option value="4"></option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
                             </datalist> 
                         </input>
                     </label>

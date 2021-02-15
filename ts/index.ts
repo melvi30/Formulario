@@ -22,3 +22,4 @@ const fecha1 = (document.querySelector("#fecha") as HTMLFormElement)
     dia.addEventListener("click",()=>{
         alert(`este es la fecha de envio ${fecha1.value} `)
     })
+    
