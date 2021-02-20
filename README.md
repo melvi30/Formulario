@@ -20,3 +20,6 @@ Esta es una practica de formulario telefónico, realizada para el curso de desar
  ## Curso de desarrollo Web Front-End 👇
  - [Bejob](https://www.bejob.com/)
  - [Women4IT](https://women4it.eu/)
+
+## MIT License 📄
+Copyright (c) Mariana Mujica Gonzalez
