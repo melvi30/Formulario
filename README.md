@@ -12,9 +12,11 @@ Esta es una practica de formulario telefónico, realizada para el curso de desar
 ## Tiempo de realización 🕜
  - 4 Horas
  
- ## Realizado por:⌨️
- Mariana Mujica Gonzalez.
+ ## Autora: Mariana Mujica Gonzalez. ⌨️
+- Linkedin: https://www.linkedin.com/in/marianamujicag/
+- Contacto: marianamujica30@gmail.com
+- Github: 
 
- ## Agradecimientos:
+ ## Curso de desarrollo Web Front-End 👇
  - [Bejob](https://www.bejob.com/)
  - [Women4IT](https://women4it.eu/)
